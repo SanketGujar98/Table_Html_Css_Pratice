@@ -1,0 +1,40 @@
+#container
+{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box;
+}
+
+table>thead>tr>th,table>tbody>tr>td,table>tfoot>tr>td{
+    border-bottom: 1px solid grey ;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+table>tbody>tr:nth-child(odd)
+{
+    background-color: rgb(218, 213, 213);
+}
+
+table>tbody>tr>td>button
+{
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+}
+table>tbody>tr>td>#btn2
+{
+    background-color: red;
+    border: none;
+    color: white;
+}
+table>tbody>tr>td>#btn1
+{
+    background-color: rgb(24, 240, 240);
+    border: none;
+}
+
